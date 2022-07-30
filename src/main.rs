@@ -14,5 +14,12 @@ fn main() {
     io::stdin()
         .read_line(&mut spaces)
         .expect("Error reading input");
+    let spaces = spaces.len();
     println!("The number of spaces in the spaces variable is {spaces}");
+
+    println!("Testing output of division:");
+    let quotient = 30.0 / 10.5;
+    let floored = 2 / 3;
+    let remainder = 45 % 5;
+    println!("Quotient: {quotient}, floored: {floored}, remainder: {remainder}");
 }
